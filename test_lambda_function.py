@@ -26,7 +26,7 @@ class TestIsMutant(unittest.TestCase):
         # Secuencia no mutante (dos secuencias de 4 iguales)
         dna = [
             "ATGCGA",
-            "CAGHCC",
+            "CCGHCC",
             "TTATGT",
             "AAFAGG",  
             "CTCCTA",
