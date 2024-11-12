@@ -1,6 +1,6 @@
 # DNA Mutant Checker API
 
-Este proyecto proporciona una API en AWS Lambda que evalúa secuencias de ADN para determinar si son mutantes o no, y almacena los resultados en una tabla de DynamoDB. La funcion Lambda está conectada a dos API Gateways: uno para recibir secuencias de ADN a través de una solicitud `POST` y otro para obtener estadísticas de las solicitudes almacenadas en DynamoDB a través de una solicitud `GET`.
+Este proyecto proporciona una API en AWS Lambda que evalúa secuencias de ADN para determinar si pertenecen a mutantes o no, y almacena los resultados en una tabla de DynamoDB. La funcion Lambda está conectada a dos API Gateways: uno para recibir secuencias de ADN a través de una solicitud `POST` y otro para obtener estadísticas de las solicitudes almacenadas en DynamoDB a través de una solicitud `GET`.
 
 ## Estructura del Proyecto
 
