@@ -32,4 +32,7 @@ El ADN debe enviarse en el siguiente formato:
 - **URL**: https://r3gz85rqb7.execute-api.us-east-1.amazonaws.com/dev/stats
 
 ### 3. `test_lambda_function.py`
-Este código contiene tests para ejecutar de manera local. Para poder ejecutarlo, se deben instalar las librerías (boto3 y unittest) presentes en en requirements.txt
+Este código contiene tests para ejecutar de manera local. Para poder ejecutarlo, se deben instalar las librerías (boto3 y unittest) presentes en requirements.txt 
+```
+pip install -r requirements.txt
+```
