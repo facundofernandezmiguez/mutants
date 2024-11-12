@@ -23,7 +23,7 @@ class TestIsMutant(unittest.TestCase):
         """
         Test para ADN no mutante, ninguna secuencia de 4 caracteres iguales.
         """
-        # Secuencia no mutante (dos secuencias de 4 iguales)
+        # Secuencia no mutante (ninguna secuencia de 4 iguales)
         dna = [
             "ATGCGA",
             "CCGHCC",
