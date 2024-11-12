@@ -9,7 +9,8 @@ Este archivo contiene la función principal `is_mutant(dna)`, que recibe una sec
 
 ### 2. API Gateway Endpoints
 
-- **POST /mutant**: Este endpoint recibe una secuencia de ADN en formato JSON y llama a la función `is_mutant(dna)` para determinar si es mutante. 
+- **POST /mutant**: Este endpoint recibe una secuencia de ADN en formato JSON y llama a la función `is_mutant(dna)` para determinar si es mutante.
+- 
 **URL**: https://tq0eceumh1.execute-api.us-east-1.amazonaws.com/dev/mutant
 
 El ADN debe enviarse en el siguiente formato:
