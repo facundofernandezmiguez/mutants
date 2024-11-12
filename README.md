@@ -25,7 +25,7 @@ El ADN debe enviarse en el siguiente formato:
       "TCACTG"
     ]
   }
-``
+```
 
 - **GET /stats**: Este endpoint devuelve las estadísticas almacenadas en DynamoDB, como el número de secuencias mutantes, no mutantes y el ratio mutantes/no mutantes.
 
