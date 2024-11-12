@@ -56,7 +56,6 @@ def is_mutant(dna):
                 sequence_count += 1
                 if sequence_count > 1:
                     return True
-    print(f"Total sequences found: {sequence_count}")
     return False
 
 def store_dna_result(dna, is_mutant):
